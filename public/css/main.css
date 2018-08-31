@@ -1,11 +1,33 @@
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+p {
+  font-size: 1.75rem;
 }
 
+.link-cont {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.link-cont .link {
+  background-color: #000;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  margin: 4px;
+  padding: 8px;
+  min-width: 100px;
+}
 
-
+.link-cont .link a,
+.link-cont .link a:visited,
+.link-cont .link a:active,
+.link-cont .link a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 
 
 
