@@ -2,6 +2,10 @@ p {
   font-size: 1.75rem;
 }
 
+.info {
+  font-size: 1.25rem;
+}
+
 .link-cont {
   align-items: center;
   display: flex;
@@ -29,15 +33,6 @@ p {
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.fb-share-button span {
+  vertical-align: middle !important;
+}
