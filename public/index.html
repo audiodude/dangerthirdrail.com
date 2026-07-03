@@ -1,342 +1,249 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Danger Third Rail - Punkish indie with too many synths</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Danger Third Rail — punkish indie with too many synths, recorded in a San Francisco kitchen. Listen to Radio Machine and Pink Fluffy Cloud."
+    />
+    <meta name="theme-color" content="#0c0722" />
 
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dangerthirdrail.com/" />
+    <meta
+      property="og:title"
+      content="Danger Third Rail - Punkish indie with too many synths"
+    />
+    <meta
+      property="og:description"
+      content="A recording project drifting from mellow ballad to frenzied punk — wrapped in far too many synths. Recorded in a San Francisco kitchen."
+    />
+    <meta property="og:site_name" content="Danger Third Rail" />
+    <meta
+      property="og:image"
+      content="https://dangerthirdrail.com/img/radio_machine.png"
+    />
+    <meta property="og:image:width" content="1600" />
+    <meta property="og:image:height" content="1600" />
+    <meta name="twitter:card" content="summary" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://use.fontawesome.com/43f93234bd.css"
-      media="all"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <a class="navbar-brand" href="#">Danger Third Rail</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbar"
-        aria-controls="navbar"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#radio-machine">Radio Machine (EP)</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#pink-fluffy-cloud"
-              >Pink Fluffy Cloud (single)</a
-            >
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#press">Press</a>
-          </li>
-        </ul>
-      </div>
-      <!--/.navbar-collapse -->
-    </nav>
+    <header class="nav">
+      <a class="wordmark" href="https://travisbriggs.com">Travis Briggs</a>
 
-    <section id="radio-machine" class="container mt-3" style="display: none">
-      <div class="row">
-        <div class="col-md-4 mt-3">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="/img/radio_machine.png" class="img-fluid" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="link-cont">
-                <span class="link">
-                  <i class="fa fa-bandcamp"></i>
-                  <a href="http://dangerthirdrail.bandcamp.com">Bandcamp</a>
-                </span>
-                <span class="link">
-                  <i class="fa fa-apple"></i>
-                  <a
-                    href="https://itunes.apple.com/us/album/radio-machine/1434892229"
-                    >iTunes</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-spotify"></i>
-                  <a
-                    href="https://open.spotify.com/album/0THZWd4KCZQlIB5YK3V2vt"
-                    >Spotify</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-google"></i>
-                  <a
-                    href="https://play.google.com/store/music/album/Danger_Third_Rail_Radio_Machine?id=Bmo43d3dc26qmxyyn7zljs6i5cy"
-                    >Google Play</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-youtube"></i>
-                  <a
-                    href="https://www.youtube.com/watch?v=O8lLwBpChQ8&list=OLAK5uy_nCMZwr1F2sdDvZyYYOk7rGBHX__ZYBoRI"
-                    >YouTube</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-amazon"></i>
-                  <a href="https://www.amazon.com/dp/B07H12KNVB"
-                    >Amazon Music</a
-                  >
-                </span>
-              </div>
-            </div>
-          </div>
+      <nav class="nav-links" aria-label="Sections">
+        <a href="#radio-machine">Radio Machine</a>
+        <a href="#pink-fluffy-cloud">Pink Fluffy Cloud</a>
+        <a href="#about">About</a>
+        <a href="#press">Press</a>
+      </nav>
+
+      <details class="nav-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Sections">
+          <a href="#radio-machine">Radio Machine</a>
+          <a href="#pink-fluffy-cloud">Pink Fluffy Cloud</a>
+          <a href="#about">About</a>
+          <a href="#press">Press</a>
+        </nav>
+      </details>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div class="stars" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
         </div>
-        <div class="col-md-8 mt-3 p-6">
-          <p>
-            <i>Radio Machine</i> is the first EP from Danger Third Rail. It
-            features five songs which increase in intensity and tempo from a
-            somewhat mellow ballad (the title track) to a frenzied punk song
-            ("Scream Into The Void").
-          </p>
-          <p>
-            Released in September 2018, <i>Radio Machine</i> is Danger Third
-            Rail's most ambitious project to date.
-          </p>
+        <div class="sun" aria-hidden="true"></div>
+        <div class="grid-floor" aria-hidden="true">
+          <div class="grid-plane"></div>
+          <div class="grid-horizon"></div>
+        </div>
+        <div class="hero-title">
+          <h1>Danger<br />Third <span class="rail">Rail</span></h1>
+          <div class="tagline">
+            <span>Punkish indie</span><span class="star">&#9733;</span>
+            <span>Too many synths</span><span class="star">&#9733;</span>
+            <span>Recorded in a San Francisco kitchen</span>
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 mt-3">
-          <iframe
-            style="border: 0; width: 100%; height: 42px"
-            src="https://bandcamp.com/EmbeddedPlayer/album=148790328/size=small/bgcol=ffffff/linkcol=63b2cc/transparent=true/"
-            seamless
-            ><a href="http://dangerthirdrail.bandcamp.com/album/radio-machine"
-              >Radio Machine by Danger Third Rail</a
-            ></iframe
+
+      <div class="intro">
+        <p>
+          A recording project drifting from mellow ballad to frenzied punk
+          &mdash; wrapped in far too many synths.
+        </p>
+        <div class="ctas">
+          <a class="btn-primary" href="http://dangerthirdrail.bandcamp.com"
+            >Listen Now</a
           >
+          <a class="btn-secondary" href="#press">Follow</a>
         </div>
       </div>
-    </section>
 
-    <section
-      id="pink-fluffy-cloud"
-      class="container mt-3"
-      style="display: none"
-    >
-      <div class="row">
-        <div class="col-md-4 mt-3">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="/img/pink_fluffy_cloud.png" class="img-fluid" />
+      <div class="section-glows" aria-hidden="true"></div>
+
+      <section id="radio-machine" class="release">
+        <div class="release-row">
+          <div class="art">
+            <img src="img/radio_machine.png" alt="Radio Machine" />
+          </div>
+          <div class="release-info">
+            <div class="eyebrow">EP &middot; Sept 2018</div>
+            <h2>Radio Machine</h2>
+            <p>
+              Five songs that climb in intensity and tempo &mdash; from the
+              mellow title-track ballad up to the frenzied punk of
+              &ldquo;Scream Into The Void.&rdquo; The band&rsquo;s most
+              ambitious project to date.
+            </p>
+            <div class="chips">
+              <a href="http://dangerthirdrail.bandcamp.com/album/radio-machine"
+                >Bandcamp</a
+              >
+              <a href="https://open.spotify.com/album/0THZWd4KCZQlIB5YK3V2vt"
+                >Spotify</a
+              >
+              <a
+                href="https://itunes.apple.com/us/album/radio-machine/1434892229"
+                >Apple Music</a
+              >
+              <a href="https://www.youtube.com/watch?v=O8lLwBpChQ8">YouTube</a>
+              <a href="https://www.amazon.com/dp/B07H12KNVB">Amazon</a>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="link-cont">
-                <span class="link">
-                  <i class="fa fa-bandcamp"></i>
-                  <a
-                    href="https://dangerthirdrail.bandcamp.com/album/pink-fluffy-cloud"
-                    >Bandcamp</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-apple"></i>
-                  <a
-                    href="https://itunes.apple.com/us/album/pink-fluffy-cloud-single/id1197923216"
-                    >iTunes</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-spotify"></i>
-                  <a
-                    href="https://open.spotify.com/album/7Fi2WalH8lRKAwrMo7GE50"
-                    >Spotify</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-google"></i>
-                  <a
-                    href="https://play.google.com/store/music/album/Danger_Third_Rail_Pink_Fluffy_Cloud?id=Bjkvbssam3w6zxorkgnpznou7qi"
-                    >Google Play</a
-                  >
-                </span>
-                <span class="link">
-                  <i class="fa fa-amazon"></i>
-                  <a href="http://www.amazon.com/gp/product/B01N24XSAX"
-                    >Amazon Music</a
-                  >
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 mt-3 p-6">
-          <p>
-            <i>Pink Fluffy Cloud</i> is Danger Third Rail's debut single.
-            Included are two songs, an A side (the title track, "Pink Fluffy
-            Cloud") and a B side (the punk style number "No More"). The single
-            features Dan Sherizan on bass guitar and session drums from
-            <a href="https://emilydrums.com">Emily Dolan Davies</a>.
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4 mt-3">
-          <iframe
-            style="border: 0; width: 100%; height: 42px"
-            src="https://bandcamp.com/EmbeddedPlayer/album=2696277677/size=small/bgcol=ffffff/linkcol=63b2cc/transparent=true/"
-            seamless
-            ><a
-              href="http://dangerthirdrail.bandcamp.com/album/pink-fluffy-cloud"
-              >Pink Fluffy Cloud by Danger Third Rail</a
-            ></iframe
-          >
-        </div>
-      </div>
-    </section>
-
-    <section id="about" style="display: none">
-      <div class="row p-5">
-        <div class="col-md-8">
-          <p>
-            Danger Third Rail is a recording project of
-            <a href="https://travisbriggs.com">Travis Briggs</a>. You can email
-            your feedback to
-            <a href="mailto:audiodude@gmail.com">audiodude@gmail.com</a>,
-            whether you love the songs or hate them! Or follow Travis on
-            <a rel="me" href="https://sfba.social/@audiodude">Mastodon</a>.
-          </p>
-          <p>
-            All songs written by Travis Briggs. All songs recorded primarily in
-            Travis' kitchen/home recording studio in San Francisco, CA. All
-            drums by <a href="https://emilydrums.com">Emily Dolan Davies</a>.
-            Album art for <i>Pink Fluffy Cloud</i> and <i>Radio Machine</i> done
-            by artists for hire on <a href="https://fiverr.com">Fiverr</a>.
-          </p>
-          <p style="color: #999">
-            Travis would like to thank his beautiful wife Abby for always being
-            supportive of his creative endeavors. He would also like to thank
-            Emily Dolan Davies, without whom these recordings would not be
-            possible. Finally, Travis would like to thank his family for all of
-            their support of his music growing up.
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h3><i>Pink Fluffy Cloud</i></h3>
-          <ul>
-            <li>
-              Vocal tracking and mixing/mastering by
-              <a href="http://www.trakworx.com">Trakworx</a> in South San
-              Francisco, CA.
-            </li>
-            <li>Vocals, guitar and synth by Travis Briggs</li>
-            <li>Bass guitar by Dan Sherizen</li>
-          </ul>
-          <h3><i>Radio Machine</i></h3>
-          <ul>
-            <li>
-              Vocals, background vocals, guitar, synth, piano, electric piano
-              and bass by Travis Briggs.
-            </li>
-            <li>
-              Mixed and Mastered by
-              <a href="https://www.arturogopla.com/">Arturo Gómez Plasencia</a>
-              via <a href="https://soundbetter.com">soundbetter.com</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="press" style="display: none">
-      <div class="row p-5">
-        <div class="col-md-12">
-          <p>Press kit coming soon!</p>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      <div class="row mt-5">
-        <div class="col-md-8">
-          <p class="info mt-3">
-            If you like Danger Third Rail, why not share the band on social
-            media?
-          </p>
-          <div class="info mt-3">
-            You'll get all kinds of sweet music cred for supporting an indie
-            artist that no one has ever heard of. <i>You</i> discovered Danger
-            Third Rail, now share your tastemaking goodness with the world!
-          </div>
-
-          <div class="info mt-3">
             <iframe
-              scrolling="no"
-              style="border: 0; width: 100%; height: 33px"
-              src="https://bandcamp.com/band_follow_button_classic/2702764214"
+              title="Radio Machine on Bandcamp"
+              src="https://bandcamp.com/EmbeddedPlayer/album=148790328/size=small/bgcol=140b30/linkcol=ff2bd6/transparent=true/"
+              seamless
             ></iframe>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <!-- Facebook -->
-    <div id="fb-root"></div>
+      <section id="pink-fluffy-cloud" class="release release-blue">
+        <div class="release-row reverse">
+          <div class="art">
+            <img src="img/pink_fluffy_cloud.png" alt="Pink Fluffy Cloud" />
+          </div>
+          <div class="release-info">
+            <div class="eyebrow">Debut single</div>
+            <h2>Pink Fluffy Cloud</h2>
+            <p>
+              Two songs: the dreamy A-side title track and the punk B-side
+              &ldquo;No More.&rdquo; Featuring Dan Sherizan on bass and session
+              drums from
+              <a class="accent-link" href="https://emilydrums.com"
+                >Emily Dolan Davies</a
+              >.
+            </p>
+            <div class="chips">
+              <a
+                href="https://dangerthirdrail.bandcamp.com/album/pink-fluffy-cloud"
+                >Bandcamp</a
+              >
+              <a href="https://open.spotify.com/album/7Fi2WalH8lRKAwrMo7GE50"
+                >Spotify</a
+              >
+              <a
+                href="https://itunes.apple.com/us/album/pink-fluffy-cloud-single/id1197923216"
+                >Apple Music</a
+              >
+              <a href="http://www.amazon.com/gp/product/B01N24XSAX">Amazon</a>
+            </div>
+            <iframe
+              title="Pink Fluffy Cloud on Bandcamp"
+              src="https://bandcamp.com/EmbeddedPlayer/album=2696277677/size=small/bgcol=140b30/linkcol=5b8cff/transparent=true/"
+              seamless
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-row">
+          <div class="bio">
+            <h3>About</h3>
+            <p>
+              Danger Third Rail is the recording project of
+              <a href="https://travisbriggs.com">Travis Briggs</a>. Email your
+              feedback &mdash; love it or hate it &mdash; to
+              <a href="mailto:audiodude@gmail.com">audiodude@gmail.com</a>, or
+              follow Travis on
+              <a rel="me" href="https://sfba.social/@audiodude">Mastodon</a>.
+            </p>
+            <p>
+              All songs written by Travis Briggs and recorded primarily in his
+              kitchen / home studio in San Francisco. All drums by
+              <a href="https://emilydrums.com">Emily Dolan Davies</a>. Album
+              art done by artists for hire on
+              <a href="https://fiverr.com">Fiverr</a>.
+            </p>
+            <p class="thanks">
+              Travis thanks his wife Abby for always supporting his creative
+              endeavors, Emily Dolan Davies &mdash; without whom these
+              recordings wouldn&rsquo;t be possible &mdash; and his family for
+              a lifetime of support of his music.
+            </p>
+          </div>
+          <div class="credits">
+            <h4 class="credits-blue">Pink Fluffy Cloud</h4>
+            <ul>
+              <li>
+                Vocal tracking &amp; mixing/mastering by
+                <a href="http://www.trakworx.com">Trakworx</a>, South SF
+              </li>
+              <li>Vocals, guitar &amp; synth by Travis Briggs</li>
+              <li>Bass guitar by Dan Sherizan</li>
+            </ul>
+            <h4 class="credits-magenta">Radio Machine</h4>
+            <ul>
+              <li>Vocals, guitar, synth, piano &amp; bass by Travis Briggs</li>
+              <li>
+                Mixed &amp; mastered by
+                <a href="https://www.arturogopla.com/"
+                  >Arturo G&oacute;mez Plasencia</a
+                >
+                via soundbetter.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer id="press" class="footer">
+        <div class="eyebrow-press">Press</div>
+        <p class="press-headline">Press kit coming soon</p>
+        <p class="share">
+          Like Danger Third Rail? Share the band. <i>You</i> discovered them
+          first &mdash; go on, spread your tastemaking goodness to the world.
+        </p>
+        <iframe
+          title="Follow Danger Third Rail on Bandcamp"
+          class="follow-button"
+          scrolling="no"
+          src="https://bandcamp.com/band_follow_button_classic/2702764214"
+        ></iframe>
+        <div class="copyright">Danger Third Rail &copy; San Francisco</div>
+      </footer>
+    </main>
+
     <script>
-      (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src =
-          'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
-        fjs.parentNode.insertBefore(js, fjs);
-      })(document, 'script', 'facebook-jssdk');
+      // Close the mobile menu after a section link is chosen
+      var menu = document.querySelector('.nav-menu');
+      menu.addEventListener('click', function (e) {
+        if (e.target.tagName === 'A') menu.removeAttribute('open');
+      });
     </script>
-
-    <!-- Twitter -->
-    <script>
-      window.twttr = (function (d, s, id) {
-        var js,
-          fjs = d.getElementsByTagName(s)[0],
-          t = window.twttr || {};
-        if (d.getElementById(id)) return t;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = 'https://platform.twitter.com/widgets.js';
-        fjs.parentNode.insertBefore(js, fjs);
-
-        t._e = [];
-        t.ready = function (f) {
-          t._e.push(f);
-        };
-
-        return t;
-      })(document, 'script', 'twitter-wjs');
-    </script>
-
-    <hr />
-
-    <footer></footer>
-
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
